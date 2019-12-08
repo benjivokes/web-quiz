@@ -35,4 +35,11 @@ currentQuestion++;
 if(currentQuestion == totQuestions -1){
     nextButton.textContent = 'Finish';
 }
+if(currentQuestion == totQuestions){
+    container.style.display = 'none';
+    resultCont.style.display = '';
+    resultCont.textContent = 'Your Score: ' + score;
+    return;
+}
+loadQuestion(currentQuestion);
 }
