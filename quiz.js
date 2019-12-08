@@ -13,5 +13,13 @@ var resultCont = document.getElementById('result');
 // load wuestion from the index by finction.
 function loadQuestion (questionIndex) {
     var q = questions[questionIndex];
-    questionEl.textContent = (questionIndex + 1)
+    questionEl.textContent = (questionIndex + 1) + '. ' + q.question;
+    opt1.textContent = q.option1:
+    opt2.textContent = q.option2;
+    opt3.textContent = q.option3;
+    opt4.textContent = q.option4;
+};
+
+function loadNextQuestion () {
+    var selectOption = document.querySelector('input[type=radio]:checked');
 }
