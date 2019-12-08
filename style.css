@@ -6,11 +6,21 @@ body {
   h1 {
     color: teal;
   }
+
 .container{
   height:400px;
   width: 100px;
   position: absolute;
+  top: 50%;
+  left: 50%;
   background: rgba(225, 225, 0, 0.3);
   padding: 20px,
   border: 1px solid #080308;
+}
+
+.title{
+  padding-top: 20px;
+  font-size: medium;
+  text-transform: uppercase;
+  text-align: center;
 }
