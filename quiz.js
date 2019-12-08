@@ -22,4 +22,11 @@ function loadQuestion (questionIndex) {
 
 function loadNextQuestion () {
     var selectOption = document.querySelector('input[type=radio]:checked');
+    if(!selectOption){
+        alert('Select an answer!');
+        return;
+    }
+    var answer = selectOption.value;
+    if(questions[currentQuestion].answer == answer)
+        score += 10;
 }
