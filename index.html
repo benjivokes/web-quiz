@@ -1,29 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web Quiz</title>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+        <div id="quizContainer" class="container">
+            <div class="title">Web-Quiz</div>
+            <div id="question" class="question">What is two + two?</div>
+            <label class="option"><input type="radio" name="option" value="1" /> <span id="opt1">three</span></label>
+            <label class="option"><input type="radio" name="option" value="2" /> <span id="opt2">four</span></label>
+            <label class="option"><input type="radio" name="option" value="3" /> <span id="opt3">five</span></label>
+            <label class="option"><input type="radio" name="option" value="4" /> <span id="opt4">six</span></label>
+            <button id="nextButton" class="next-btn" onclick="loadNextQuestion();">Next Question</button>
+        </div>
+        <div id="result" class="container result" style="display: none;">
+        </div>
     <script type="text/javascript" src="webquiz.js"></script>
     <script type="text/javascript" src="quiz.js"></script>
-  
-    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
-    <div id="quiz">
-    </div>
-</head>
-<!-- <h1> Web-Quiz</h1> -->
-
-<body>
-    <div id="quizContainer" class="container">
-        <div class="title">Web-Quiz</div>
-        <div id="question" class="question">What is two + two?</div>
-        <label class="option"><input type="radio" name="option" value="1" /> <span id="opt1">three</span></label>
-        <label class="option"><input type="radio" name="option" value="2" /> <span id="opt2">four</span></label>
-        <label class="option"><input type="radio" name="option" value="3" /> <span id="opt3">five</span></label>
-        <label class="option"><input type="radio" name="option" value="4" /> <span id="opt4">six</span></label>
-        <button id="nextButton" class="next-btn" onclick="loadNextQuestion();">Next Question</button>
-    </div>
-   
 </body>
 </html>
