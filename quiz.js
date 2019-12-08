@@ -30,3 +30,9 @@ function loadNextQuestion () {
     if(questions[currentQuestion].answer == answer)
         score += 10;
 }
+selectOption.checked = false;
+currentQuestion++;
+if(currentQuestion == totQuestions -1){
+    nextButton.textContent = 'Finish';
+}
+}
