@@ -4,7 +4,7 @@ body {
   
   }
   h1 {
-    color: teal;
+    color: #00bfff;
   }
 
 .container{
@@ -23,4 +23,26 @@ body {
   font-size: medium;
   text-transform: uppercase;
   text-align: center;
+  color: #00bfff;
+}
+
+.question{
+  padding: 20px;
+  background: #00bfff;
+  font-size: small;
+  border-radius: 20px;
+  margin: 10px 0 10px 0;
+  color: #f6f6f6;
+
+}
+
+.option{
+  width: 470px;
+  display: inline-block;
+  margin: 10px 0 10px 10px;
+  padding: 10px 0 10px 15px;
+  vertical-align: middle;
+  background: rgba(255, 225, 225, 0.5);
+  color: #080308;
+  border-radius: 20px;
 }
