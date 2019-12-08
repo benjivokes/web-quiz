@@ -1,7 +1,16 @@
-/* body {
-    background: black;
-    color: whitesmoke;
+body {
+    font-family: font-family: 'Baloo Bhai', cursive;
+    background: #f0f8ff;
+  
   }
   h1 {
     color: teal;
-  } */
+  }
+.container{
+  height:400px;
+  width: 100px;
+  position: absolute;
+  background: rgba(225, 225, 0, 0.3);
+  padding: 20px,
+  border: 1px solid #080308;
+}
