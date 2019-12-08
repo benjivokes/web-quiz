@@ -10,12 +10,13 @@ body {
 .container{
   height:400px;
   width: 1000px;
-  position: absolute;
+  position: static;
   top: 50%;
   left: 50%;
   background: rgba(225, 225, 0, 0.3);
   padding: 20px,
   border: 1px solid #080308;
+  margin: auto;
 }
 
 .title{
@@ -42,11 +43,11 @@ body {
   padding: 10px 0 10px 15px;
   vertical-align: middle;
   background: rgba(255, 225, 225, 0.5);
-  color: #080308;
+  color: #00bfff;
   border-radius: 20px;
 }
 
 .option:hover{
   background: 00bfff;
-  color: #f6f6f6;
+  color: palevioletred;
 }
