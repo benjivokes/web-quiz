@@ -45,3 +45,4 @@ if(currentQuestion == totQuestions){
 loadQuestion(currentQuestion);
 }
 loadQuestion(currentQuestion);
+
