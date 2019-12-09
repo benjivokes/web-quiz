@@ -42,6 +42,8 @@ if(currentQuestion == totQuestions){
     resultCont.textContent = 'Your Score: ' + score;
     return;
 }
+
+
 loadQuestion(currentQuestion);
 }
 loadQuestion(currentQuestion);
